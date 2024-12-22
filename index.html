@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Form</title>
+</head>
+<body>
+  <h1>Contact Us</h1>
+  
+  <!-- Contact Form -->
+  <form action="#" method="post">
+    
+    <!-- Full Name Input -->
+    <label for="full-name">Full Name:</label>
+    <input 
+      type="text" 
+      id="full-name" 
+      name="full-name" 
+      placeholder="Enter Name" 
+      required
+    />
+    <br><br>
+
+    <!-- Email Input -->
+    <label for="email">Email:</label>
+    <input 
+      type="email" 
+      id="email" 
+      name="email" 
+      placeholder="Enter Email" 
+      required
+    />
+    <br><br>
+
+    <!-- Telephone Input -->
+    <label for="telephone">Telephone:</label>
+    <input 
+      type="tel" 
+      id="telephone" 
+      name="telephone" 
+      placeholder="Enter Telephone (optional)"
+    />
+    <br><br>
+
+    <!-- Message Text Area -->
+    <label for="message">Message:</label>
+    <textarea 
+      id="message" 
+      name="message" 
+      placeholder="Enter Message" 
+      rows="4" 
+      cols="50"
+    ></textarea>
+    <br><br>
+
+    <!-- Checkbox -->
+    <label for="subscribe">
+      <input 
+        type="checkbox" 
+        id="subscribe" 
+        name="subscribe"
+      />
+      Subscribe to our newsletter
+    </label>
+    <br><br>
+
+    <!-- Submit Button -->
+    <button type="submit">Submit</button>
+
+  </form>
+</body>
+</html>
